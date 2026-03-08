@@ -15,21 +15,21 @@ import thumb_shape_2 from '@assets/img/slider/2/shape/shape-3.png';
 const slider_data = [
   {
     id: 1,
-    subtitle: 'New Arrivals 2026',
-    title: 'The Clothing Collection',
+    // subtitle: 'New Arrivals 2026',
+    // title: 'The Clothing Collection',
     img: slider_img_1,
   },
   {
     id: 2,
     subtitle: 'Best Selling 2026',
     title: 'The Summer Collection',
-    img: slider_img_2,
+    img: slider_img_1,
   },
   {
     id: 3,
     subtitle: 'Winter Has Arrived',
     title: 'Amazing New designs',
-    img: slider_img_3,
+    img: slider_img_1,
   },
 ]
 
@@ -59,24 +59,23 @@ const FashionBanner = () => {
                 <div className="tp-slider-2-shape">
                   <Image className="tp-slider-2-shape-1" src={slider_shape} alt="slider_shape" />
                 </div>
-                <div className="container">
+                <div className="container" onClick={() => window.open("https://Flipchat.store/wa", "_blank")} >
                   <div className="row align-items-center">
                     <div className="col-xl-6 col-lg-6 col-md-6">
-                      <div className="tp-slider-content-2">
-                        <span>{item.subtitle}</span>
-                        <h3 className="tp-slider-title-2">{item.title}</h3>
+                      <div className="tp-slider-content-2 " style={{
+                        paddingTop: "0px",
+                      }}>
                         <div className="tp-slider-btn-2">
-                          <Link href="/shop" className="tp-btn tp-btn-border">Shop Collection</Link>
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6  ">
                       <div className="tp-slider-thumb-2-wrapper p-relative">
                         <div className="tp-slider-thumb-2-shape">
                           <Image className="tp-slider-thumb-2-shape-1" src={thumb_shape_1} alt="shape" />
                           <Image className="tp-slider-thumb-2-shape-2" src={thumb_shape_2} alt="shape" />
                         </div>
-                        <div className="tp-slider-thumb-2 text-end">
+                        <div className="tp-slider-thumb-2 text-end p-0">
                           <span className="tp-slider-thumb-2-gradient"></span>
                           <Image src={item.img} alt="slider img" priority />
                         </div>
