@@ -14,7 +14,7 @@ const bannerProducts = [
   {
     id: 1,
     banner_bg_txt: 'tablet',
-    subtitle: 'Tablet Collection 2023',
+    subtitle: 'Tablet Collection 2026',
     title: 'Galaxy Tab S6 Lite Android Tablet',
     oldPrice: 320,
     newPrice: 288,
@@ -23,7 +23,7 @@ const bannerProducts = [
   {
     id: 2,
     banner_bg_txt: 'tablet',
-    subtitle: 'Tablet Collection 2023',
+    subtitle: 'Tablet Collection 2026',
     title: 'Galaxy Tab S6 Lite Android Tablet',
     oldPrice: 320,
     newPrice: 288,
@@ -32,7 +32,7 @@ const bannerProducts = [
   {
     id: 3,
     banner_bg_txt: 'tablet',
-    subtitle: 'Tablet Collection 2023',
+    subtitle: 'Tablet Collection 2026',
     title: 'Galaxy Tab S6 Lite Android Tablet',
     oldPrice: 320,
     newPrice: 288,

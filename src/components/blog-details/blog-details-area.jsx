@@ -43,7 +43,7 @@ const BlogDetailsArea = ({blog}) => {
 
                 <div className="tp-postbox-details-desc-thumb text-center">
                   <Image src={blog_details_sm_img} alt="details-sm-img" />
-                  <span className="tp-postbox-details-desc-thumb-caption">Gucci’s Women’s Cruise Collection 2023 Lookbook Has Arrived</span>
+                  <span className="tp-postbox-details-desc-thumb-caption">Gucci’s Women’s Cruise Collection 2026 Lookbook Has Arrived</span>
                 </div>
                 <p>“We’re so glad we’ll be working with you to get your new marketing strategy up and running. I have attached the details of your package. Next you’ll get an email from Jen to schedule your kick-off meeting and be assigned your account rep. During your kick-off meeting, we will introduce your project team, let you know what access we need to start.” </p>
 
